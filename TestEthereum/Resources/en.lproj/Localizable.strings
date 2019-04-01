@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  TestEthereum
+
+  Created by Suryakant on 3/30/19.
+  Copyright © 2019 Suryakant. All rights reserved.
+*/
+
+
+//Alert Strings
+
+"sign.message.alert.title"  = "Sign Message";
+"sign.message.alert.placeholder.text" = "Enter Message to sign";
+
+"sign.message.alert.sign.button.text" = "Sign";
+"sign.message.alert.cancel.button.text" = "Cancel";
+
+"sign.message.alert.button.ok" = "OK";

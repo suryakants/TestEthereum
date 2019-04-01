@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		197DE700B5FDBFF5DFD92CB2 /* Pods_TestEthereum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EAD7A75266041F05BFB917 /* Pods_TestEthereum.framework */; };
+		B70AFAF2215950C2008DDCED /* QRCodeGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70AFAF1215950C2008DDCED /* QRCodeGeneratorViewController.swift */; };
+		B70AFAF421596224008DDCED /* KeysService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70AFAF321596224008DDCED /* KeysService.swift */; };
+		B762C8DC224FE0DA004B5DF5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B762C8DE224FE0DA004B5DF5 /* Localizable.strings */; };
+		B762C9242250D09E004B5DF5 /* GNManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B762C9232250D09E004B5DF5 /* GNManager.swift */; };
+		B762C9262250D882004B5DF5 /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B762C9252250D882004B5DF5 /* AppUtils.swift */; };
+		B76305562157D9B00066F5DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76305552157D9B00066F5DB /* AppDelegate.swift */; };
+		B763055D2157D9D40066F5DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B763055C2157D9D40066F5DB /* Assets.xcassets */; };
+		B76305602157D9D40066F5DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B763055E2157D9D40066F5DB /* LaunchScreen.storyboard */; };
+		B763056B2157E2BA0066F5DB /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B763056A2157E2BA0066F5DB /* SignInViewController.swift */; };
+		B763056D215802E30066F5DB /* WalletDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B763056C215802E30066F5DB /* WalletDetailViewController.swift */; };
+		B763057221580AF40066F5DB /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B763057121580AF40066F5DB /* ActivityView.swift */; };
+		B76305742158A6BB0066F5DB /* Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76305732158A6BB0066F5DB /* Contants.swift */; };
+		B76305782158A9290066F5DB /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76305762158A9290066F5DB /* ReachabilityManager.swift */; };
+		B76305792158A9290066F5DB /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76305772158A9290066F5DB /* Reachability.swift */; };
+		B763057B2158D3E60066F5DB /* WalletDetailViewController+QRCodeReaderViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B763057A2158D3E60066F5DB /* WalletDetailViewController+QRCodeReaderViewControllerDelegate.swift */; };
+		D1377044F86B8C8E81A1093E /* Pods_GnosisAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080C4D4B46EA365899366818 /* Pods_GnosisAssignment.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		080C4D4B46EA365899366818 /* Pods_GnosisAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GnosisAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8C1415DFE5BD121FC3D16E /* Pods-GnosisAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GnosisAssignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-GnosisAssignment/Pods-GnosisAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		5C58FC19A539EEE28524AE81 /* Pods-TestEthereum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestEthereum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestEthereum/Pods-TestEthereum.debug.xcconfig"; sourceTree = "<group>"; };
+		65EAD7A75266041F05BFB917 /* Pods_TestEthereum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestEthereum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70AFAF1215950C2008DDCED /* QRCodeGeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGeneratorViewController.swift; sourceTree = "<group>"; };
+		B70AFAF321596224008DDCED /* KeysService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeysService.swift; sourceTree = "<group>"; };
+		B762C8DD224FE0DA004B5DF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B762C9232250D09E004B5DF5 /* GNManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GNManager.swift; sourceTree = "<group>"; };
+		B762C9252250D882004B5DF5 /* AppUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
+		B76305522157D9B00066F5DB /* TestEthereum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestEthereum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76305552157D9B00066F5DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B763055C2157D9D40066F5DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B763055F2157D9D40066F5DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B76305612157D9D50066F5DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B763056A2157E2BA0066F5DB /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		B763056C215802E30066F5DB /* WalletDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletDetailViewController.swift; sourceTree = "<group>"; };
+		B763057121580AF40066F5DB /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		B76305732158A6BB0066F5DB /* Contants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contants.swift; sourceTree = "<group>"; };
+		B76305762158A9290066F5DB /* ReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
+		B76305772158A9290066F5DB /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		B763057A2158D3E60066F5DB /* WalletDetailViewController+QRCodeReaderViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WalletDetailViewController+QRCodeReaderViewControllerDelegate.swift"; sourceTree = "<group>"; };
+		B82E0DCE907422D09916E3B2 /* Pods-GnosisAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GnosisAssignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GnosisAssignment/Pods-GnosisAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		E4ADFFF69F576CCCC0CF7F74 /* Pods-TestEthereum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestEthereum.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestEthereum/Pods-TestEthereum.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B763054F2157D9B00066F5DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1377044F86B8C8E81A1093E /* Pods_GnosisAssignment.framework in Frameworks */,
+				197DE700B5FDBFF5DFD92CB2 /* Pods_TestEthereum.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		636845C9545CF5A5518F2369 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B82E0DCE907422D09916E3B2 /* Pods-GnosisAssignment.debug.xcconfig */,
+				3D8C1415DFE5BD121FC3D16E /* Pods-GnosisAssignment.release.xcconfig */,
+				5C58FC19A539EEE28524AE81 /* Pods-TestEthereum.debug.xcconfig */,
+				E4ADFFF69F576CCCC0CF7F74 /* Pods-TestEthereum.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B76305492157D9B00066F5DB = {
+			isa = PBXGroup;
+			children = (
+				B76305542157D9B00066F5DB /* TestEthereum */,
+				B76305532157D9B00066F5DB /* Products */,
+				636845C9545CF5A5518F2369 /* Pods */,
+				F30470D8BE953057987671A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B76305532157D9B00066F5DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B76305522157D9B00066F5DB /* TestEthereum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B76305542157D9B00066F5DB /* TestEthereum */ = {
+			isa = PBXGroup;
+			children = (
+				B76305752158A8F80066F5DB /* Reachability */,
+				B763057021580AB00066F5DB /* Utility Classes */,
+				B76305692157E1220066F5DB /* Resources */,
+				B76305682157E0F50066F5DB /* ViewController */,
+				B76305672157E0DA0066F5DB /* AppDelegate */,
+			);
+			path = TestEthereum;
+			sourceTree = "<group>";
+		};
+		B76305672157E0DA0066F5DB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B76305552157D9B00066F5DB /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B76305682157E0F50066F5DB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B763056A2157E2BA0066F5DB /* SignInViewController.swift */,
+				B763056C215802E30066F5DB /* WalletDetailViewController.swift */,
+				B763057A2158D3E60066F5DB /* WalletDetailViewController+QRCodeReaderViewControllerDelegate.swift */,
+				B70AFAF1215950C2008DDCED /* QRCodeGeneratorViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B76305692157E1220066F5DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B763055C2157D9D40066F5DB /* Assets.xcassets */,
+				B763055E2157D9D40066F5DB /* LaunchScreen.storyboard */,
+				B76305612157D9D50066F5DB /* Info.plist */,
+				B762C8DE224FE0DA004B5DF5 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B763057021580AB00066F5DB /* Utility Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B762C9232250D09E004B5DF5 /* GNManager.swift */,
+				B70AFAF321596224008DDCED /* KeysService.swift */,
+				B76305732158A6BB0066F5DB /* Contants.swift */,
+				B763057121580AF40066F5DB /* ActivityView.swift */,
+				B762C9252250D882004B5DF5 /* AppUtils.swift */,
+			);
+			path = "Utility Classes";
+			sourceTree = "<group>";
+		};
+		B76305752158A8F80066F5DB /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				B76305772158A9290066F5DB /* Reachability.swift */,
+				B76305762158A9290066F5DB /* ReachabilityManager.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		F30470D8BE953057987671A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				080C4D4B46EA365899366818 /* Pods_GnosisAssignment.framework */,
+				65EAD7A75266041F05BFB917 /* Pods_TestEthereum.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B76305512157D9B00066F5DB /* TestEthereum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B76305642157D9D50066F5DB /* Build configuration list for PBXNativeTarget "TestEthereum" */;
+			buildPhases = (
+				AAC840FA823C12C41291E0CB /* [CP] Check Pods Manifest.lock */,
+				B763054E2157D9B00066F5DB /* Sources */,
+				B763054F2157D9B00066F5DB /* Frameworks */,
+				B76305502157D9B00066F5DB /* Resources */,
+				31BA13D739A1001A42E04DA3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestEthereum;
+			productName = GnosisAssignment;
+			productReference = B76305522157D9B00066F5DB /* TestEthereum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B763054A2157D9B00066F5DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Suryakant;
+				TargetAttributes = {
+					B76305512157D9B00066F5DB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B763054D2157D9B00066F5DB /* Build configuration list for PBXProject "TestEthereum" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B76305492157D9B00066F5DB;
+			productRefGroup = B76305532157D9B00066F5DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B76305512157D9B00066F5DB /* TestEthereum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B76305502157D9B00066F5DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76305602157D9D40066F5DB /* LaunchScreen.storyboard in Resources */,
+				B762C8DC224FE0DA004B5DF5 /* Localizable.strings in Resources */,
+				B763055D2157D9D40066F5DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31BA13D739A1001A42E04DA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TestEthereum/Pods-TestEthereum-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/QRCodeReader.swift/QRCodeReader.framework",
+				"${BUILT_PRODUCTS_DIR}/SipHash/SipHash.framework",
+				"${BUILT_PRODUCTS_DIR}/keccak.c/keccak.framework",
+				"${BUILT_PRODUCTS_DIR}/scrypt.c/scrypt.framework",
+				"${BUILT_PRODUCTS_DIR}/secp256k1.c/secp256k1.framework",
+				"${BUILT_PRODUCTS_DIR}/web3swift/web3swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BigInt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCodeReader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SipHash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/keccak.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/scrypt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/secp256k1.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/web3swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestEthereum/Pods-TestEthereum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAC840FA823C12C41291E0CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestEthereum-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B763054E2157D9B00066F5DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B763057221580AF40066F5DB /* ActivityView.swift in Sources */,
+				B763057B2158D3E60066F5DB /* WalletDetailViewController+QRCodeReaderViewControllerDelegate.swift in Sources */,
+				B76305782158A9290066F5DB /* ReachabilityManager.swift in Sources */,
+				B762C9262250D882004B5DF5 /* AppUtils.swift in Sources */,
+				B762C9242250D09E004B5DF5 /* GNManager.swift in Sources */,
+				B70AFAF421596224008DDCED /* KeysService.swift in Sources */,
+				B763056D215802E30066F5DB /* WalletDetailViewController.swift in Sources */,
+				B763056B2157E2BA0066F5DB /* SignInViewController.swift in Sources */,
+				B76305742158A6BB0066F5DB /* Contants.swift in Sources */,
+				B76305792158A9290066F5DB /* Reachability.swift in Sources */,
+				B76305562157D9B00066F5DB /* AppDelegate.swift in Sources */,
+				B70AFAF2215950C2008DDCED /* QRCodeGeneratorViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B762C8DE224FE0DA004B5DF5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B762C8DD224FE0DA004B5DF5 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		B763055E2157D9D40066F5DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B763055F2157D9D40066F5DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B76305622157D9D50066F5DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B76305632157D9D50066F5DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B76305652157D9D50066F5DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C58FC19A539EEE28524AE81 /* Pods-TestEthereum.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85SN83N4QS;
+				INFOPLIST_FILE = "$(SRCROOT)/TestEthereum/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Suryakant.TestEthereum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B76305662157D9D50066F5DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4ADFFF69F576CCCC0CF7F74 /* Pods-TestEthereum.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85SN83N4QS;
+				INFOPLIST_FILE = "$(SRCROOT)/TestEthereum/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Suryakant.TestEthereum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B763054D2157D9B00066F5DB /* Build configuration list for PBXProject "TestEthereum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B76305622157D9D50066F5DB /* Debug */,
+				B76305632157D9D50066F5DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B76305642157D9D50066F5DB /* Build configuration list for PBXNativeTarget "TestEthereum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B76305652157D9D50066F5DB /* Debug */,
+				B76305662157D9D50066F5DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B763054A2157D9B00066F5DB /* Project object */;
+}
